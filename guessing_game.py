@@ -1,7 +1,7 @@
 from multiprocessing import RLock
 
 
-userInput = "rock"
+userInput = input("Choose rock, paper or scissors:").lower()
 
 if userInput == "rock":
     print("You rock")
